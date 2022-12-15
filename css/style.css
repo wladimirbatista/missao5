@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#topo {
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.topo-logo {
+    display: flex;
+}
+
+.topo-logo img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.topo-logo div {
+    margin-left: 15px;
+}
+
+.topo-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+
+.topo-links a:hover {
+    color: #2f86d6;
+}
+
+.secao-banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 85px 0px;
+}
+
+.container-texto-banner {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.container-texto-banner p {
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.container-texto-banner h1 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+.secao-primeiro-anuncio {
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #23303e;
+}
+
+.secao-primeiro-anuncio h2 {
+    margin-bottom: 5px;
+}
+
+.secao-primeiro-anuncio a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao-primeiro-anuncio a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.secao-informacoes {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.secao-informacoes h2 {
+    max-width: 900px;
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+.secao-informacoes h2 span {
+    color: #2f86d6;
+}
+
+.container-informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-informacoes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-informacoes div img {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.container-informacoes div p {
+    margin-top: 20px;
+}
+
+.secao-tabela-de-planos {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f3f7;
+}
+
+.secao-tabela-de-planos h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+
+.secao-tabela-de-planos h2 span {
+    color: #2f86d6;
+}
+
+.tabela {
+    border-radius: 4px;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+.celula-cabeçalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+.celula-cabeçalho h3 {
+    margin-bottom: 20px;
+}
+
+.celula-cabeçalho img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.celula-cabeçalho small {
+    width: 150px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+ 
+.linhas-da-tabela:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+  
+.linhas-da-tabela:nth-child(even) {
+    background-color: #fff;
+    
+}
+
+.linhas-da-tabela td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linhas-da-tabela td:hover {
+    background-color: #2f86d6;
+    color: #fff;
+}
+
+
+.secao-segundo-anuncio {
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #2f86d6;
+}
+
+.secao-segundo-anuncio h2 {
+    max-width: 550px;
+}
+
+.secao-segundo-anuncio a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #233032;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao-segundo-anuncio a img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+#rodape {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-logo {
+    display: flex;
+}
+
+.rodape-logo img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.rodape-logo div {
+    margin-left: 15px;
+}
+
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.container-texto-rodape {
+    text-align: center;
+    margin: 50px 0px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-copyright {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
+
+.container-copyright span {
+    color: #2f86d6;
+}
+
+
+
